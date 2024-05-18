@@ -1,0 +1,11 @@
+{
+  "extends": "react-app",
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "rules": {
+    "semi": "off",
+    "no-console": ["warn", { "allow": ["error"] }],
+    "no-unused-vars": ["warn"]
+  }
+}

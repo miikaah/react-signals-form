@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "module": "es2020",
+    "lib": ["esNext", "dom"],
+    "target": "es2020",
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "moduleResolution": "node",
+    "strict": true,
+    "outDir": "dist",
+    "jsx": "react",
+    "types": [
+      "vitest/globals",
+      "vitest-dom/extend-expect",
+      "@testing-library/jest-dom"
+    ],
+    "skipLibCheck": true
+  },
+  "include": ["./src/**/*.ts", "./src/**/*.tsx", "./test/**/*.tsx"]
+}
