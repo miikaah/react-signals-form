@@ -38,10 +38,10 @@ code {
 }
 
 button {
-  color: inherit;
-  background-color: transparent;
+  color: black;
+  background-color: #1ffe78;
   border: 0;
-  padding: 0;
+  padding: 20px;
   cursor: pointer;
   font-family: Verdana, Tahoma, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -78,4 +78,27 @@ textarea {
   padding: 10px 30px;
   font-size: var(--font-size-md);
   font-family: Arial, sans-serif;
+}
+
+#root {
+  width: 60%;
+  margin: auto;
+  padding: 120px;
+}
+
+.alittleless-top-margin {
+  margin-top: 20px;
+}
+
+.some-top-margin {
+  margin-top: 30px;
+}
+
+.input-and-label {
+  display: flex;
+  flex-direction: column;
+}
+
+.error {
+  color: #f00;
 }
